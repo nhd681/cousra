@@ -32,7 +32,7 @@ border-radious:10px;
 }
 div>p{
 float:right;
-height:60px;
+height:50px;
 top:-5px;
 }
 .containerbox{
@@ -129,18 +129,28 @@ float: left;
  }
  }
  #p1{
- width: 50%; position: relative; top: 60px; left: 50px;
+ width: 50%; position: relative;
+ top: 60px;
+ left: 50px;
  } 
 #p2{ 
-position: relative; top: 60px; left: 60px; width: 50%;
+position: relative; 
+top: 60px; 
+left: 60px; 
+width: 50%;
  }
  #p3{
- position: relative; top: 60px; left: 70px; width: 50%;
+ position: relative;
+ top: 60px;
+ left: 70px; 
+width: 50%;
  }
+
  }
  @media (min-width: 950px) and (max-width: 1199px) {
  .class1,.class2,.class3{ 
-float: left; border: 1px solid black;
+float: left;
+ border: 1px solid black;
  }
  .class1{
  width: 8.33%;
@@ -160,28 +170,19 @@ width: 50%;
 #p3{
  width: 100%;
  }
- h2,h3,h4 {
- font-size: 20px; border: 1px solid black;
- }
- .head1{
- border: 1px solid red;
- }
- }
+ 
 </style>
 </HEAD>
 <BODY>
 <H1 align='center'>Our Menu</H1>
 <div class="row">
-<div class="class1" id="p1">
-<div class="head1">
-<h2 class="head1" text align="right" >chicken</h2>
-</div>
-<p> lorem ipsum dolor sit amet,consectetur adipising elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commando consequat</p>
-</div>
-<div class="class2" id="p2"><h3 text align="right">beef</h3>
-<p>lorem ipsum dolor sit amet,consectetur adipising elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commando consequat</p></div>
-<div class="class3" id="p3"><h4 text align="right">sushi</h4>
-<p>lorem ipsum dolor sit amet,consectetur adipising elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commando consequat</p></div>
+<div class="containerbox" id="p1"><p>chicken</p>
+<p>lorem ipsum dolor sit amet,consectetur adipising elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+ 
+<div class="containerbox" id="p2"><p>beef</p>
+lorem ipsum dolor sit amet,consectetur adipising elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commando consequa</div>
+<div class="containerbox" id="p3"><p>sushi</p>
+lorem ipsum dolor sit amet,consectetur adipising elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commando consequat</div>
 </div>
 <BODY>
 </HTML>
