@@ -10,52 +10,137 @@ box-sizing: border-box;
 h1 {
 margin-bottom: 15px;
 }
-div{ 
-
+p{
+border:1px;
+width:90px;
+height:150px;
+margin-right:auto;
+margin-left:auto;
+font-family:helvetica;
+margin-bottom:15px;
+margin-top:15px;
+background-color:red;
+padding:10px;
 }
-#p1,#p2,#p3 {
-border: 2px solid black; 
-padding-right: 30px;
-} p{
-width: 90%;
-height: 100px;
-margin-right: auto;
-margin-left: auto;
-font-family: helvetica;
-margin-bottom: 15px;
-background-color: gray;
+div{ 
+background-color:blue;
+border:1px solid black;
+position:relative;
+padding:10px;
+margin-top:5px;
+border-radious:10px;
+}
+div>p{
+float:right;
+height:60px;
+top:-5px;
+}
+.containerbox{
+float:left;
+border:1px solid black;
+}
+#p1{
+top:5px;
+width:80%;
+height:150px;
+left:10%
+}
+#p2{
+top:10px;
+width:80%;
+height:150px;
+left:10%;
+}
+#p3{
+top:15px;
+width:80%;
+height:150px;
+left:10%;
+}
+#p11{
+position:absolute;
+top:-15px;
+right:5px;
+height:80px;
+}
+#p12{
+position:absolute;
+top:-15px;
+right:5px;
+height:80px;
+}
+#p13{
+position:absolute;
+top:-15px;
+right:5px;
+height:80px;
+}
+@media(min-width:1200px){
+.containerbox{
+float:left;
+top:200px;
+border:1px solid black;
+}
+#p1{
+width:25%;
+height:300px;
+left:10%;
+}
+#p2{
+width:25%;
+height:300px;
+left:13%;
+}
+#p3{
+width:25%;
+height:300px;
+left:17%;
+}
+ 
+}
+@media(min-width:950px)and(max-width:1199px){
+.containerbox{
+border:1px solid black;
+}
+#p1{
+width:35%;
+height:300px;
+left:10%;
+}
+#p2{
+width:25%;
+height:300px;
+left:-13%;
+float:right;
+}
+#p3{
+width:78%;
+height:300px;
+left:10%;
+top:50px;
 }
  .row {
 width: 100%;
  }
  @media (min-width: 1200px) { 
-.class1, .class2, .class3{ 
- float: left;
+.class1, .class2, .class3
+{ 
+float: left;
  }
  }
  #p1{
- width: 50%;
- position: relative;
- top: 60px; 
-left: 50px;
+ width: 50%; position: relative; top: 60px; left: 50px;
  } 
 #p2{ 
-position: relative; 
-top: 60px;
- left: 60px;
- width: 50%;
+position: relative; top: 60px; left: 60px; width: 50%;
  }
  #p3{
- position: relative;
- top: 60px; 
-left: 70px;
- width: 50%;
+ position: relative; top: 60px; left: 70px; width: 50%;
  }
  }
  @media (min-width: 950px) and (max-width: 1199px) {
  .class1,.class2,.class3{ 
-float: left; 
-border: 1px solid black;
+float: left; border: 1px solid black;
  }
  .class1{
  width: 8.33%;
@@ -76,8 +161,7 @@ width: 50%;
  width: 100%;
  }
  h2,h3,h4 {
- font-size: 20px;
- border: 1px solid black;
+ font-size: 20px; border: 1px solid black;
  }
  .head1{
  border: 1px solid red;
