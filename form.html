@@ -13,12 +13,12 @@ table{
 			padding: 4px;
 			padding-bottom: 1px;
 			border-spacing: 0.5px;
-                        background-color:blue;
+                        background-color:grey;
 }
 </style>
 <form>
 <div>
- <table>
+ <table style="width:100%">
  <tr>
   <th>NAME</th>
   <th><input type="text"></th>
@@ -36,6 +36,15 @@ table{
 <th><input type="radio" name="Degree">Degree</th><br>
 <th><input type="radio" name="other">OTHER</th><br>
 </tr>
+<tr>
+ <th>OCCUPATION</th>
+ <th>
+<select>
+ <option value="Student">Student</option>
+ <option value="Teacher">Teacher</option>
+ <option value="bussiness">Business</option>
+ <option vakue="other>Other</option>
+</select><br>
 </table>
 </form>
 </body>
