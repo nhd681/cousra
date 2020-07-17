@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+@page {
+    size: 21cm 29.7cm;
+    margin: 30mm 45mm 30mm 45mm;
+     /* change the margins as you want them to be. */
+}
+body{
+           height: 1000px;
+             width: 710px;
+             margin-left: auto;
+             margin-right: auto;
+             font-family: serif;  
+             width: 40%;                                   
+        }
+        div{
+          word-spacing:2px;
+          line-height: 1.6;
+          text-align: justify;
+          font-size:17px;
+        }
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+hr.solid {
+  border-top: 3px solid navy;
+}
+.sold{
+  border-bottom: 3px solid navy;
+}
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color:white;
+  color: navy;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color:darkblue;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: lightblue;
+}
+
+.aside {
+  background-color:darkblue;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+   position: fixed;
+   left:30%;
+   right:30%;
+   bottom: 0;
+   width: 100%;
+   background-color: navy;
+   color: white;
+   text-align: center;
+   width:40%;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+</style>
+</head>
+<body>
+
+<div class="header"><center>
+  <h1>FAROOK COLLEGE (Autonomous) </h1>
+</center>
+<hr class="solid">
+</div>
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+    <ul>
+      <li><a href="website.html" style="color: white; text-decoration: none;"><b>Home</b></a></li>
+      <li><a href="https://www.farookcollege.ac.in/farook_college/departments/" style="color: white; text-decoration: none;"><b>Courses</b></a></li>
+      <li><a href="https://www.farookcollege.ac.in/farook_college/faculty-staff/" style="color: white; text-decoration: none;"><b>Faculty</b></a></li>
+      <li><a href="https://www.farookcollege.ac.in/contact-us/" style="color: white; text-decoration: none;"><b>Contact Us</b></a></li>
+    </ul>
+  </div>
+
+  <div class="col-6 col-s-9">
+    <h1>Welcome to Farook College</h1>
+    <p>Farook College (Autonomous) is today the biggest residential Post Graduate Institution under the Calicut University. The college has been re-accredited at ‘A+’ Grade by the National Assessment and Accreditation Council (NAAC), Bangalore, with a CGPA 3.51 on a four point scale valid from March 2016. It offers instruction in various disciplines at the undergraduate and postgraduate levels. There are 20 undergraduate and 15 post graduate programmes. Eleven of the P.G. Departments are recognized research centres. The College is modelled on residential pattern providing for curricular and co-curricular activities for both mental and moral development of the students. Its special care for the moral standard of the students, operated through religious and spiritual discourses, help them enrich their personal as well as social identity.</p>
+
+<p>The college and its hostels are open to students of all castes and creeds and provide amenities for the creation of a healthy cosmopolitan atmosphere on the campus.</p>
+
+  </div>
+<p>
+
+</p>
+  <div class="col-3 col-s-12">
+    <div class="aside">
+      <h2>Address</h2>
+      <p><address>Address<br> <br>  
+
+Farook College (Autonomous)<br>  
+P.O. Farook College<br> 
+Kozhikode Dt<br>  
+PIN 673632<br>  
+Kerala, India.<br>  <br>  
+
+Connect us<br>  
+Mail US mail@farookcollege.ac.in<br>  
+Call us<br> <br>  
+
++91 495 2440660 | +91 495 2440661</address></p>
+    </div>
+  </div>
+</div>
+<div><img src="farook.jpg" width="100%"></div>
+<div><img src="farookcolge.jpg" style="width:200px;height:200px;bottom:550px;position: fixed;"></div>
+<p class="footer"><b>2020 Farook College, All Rights Reserved.<br>
+
+Created by safwan</b></p>
+
+</body>
+</html>
